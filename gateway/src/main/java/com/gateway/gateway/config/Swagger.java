@@ -10,7 +10,7 @@ public class Swagger {
     public OpenAPI customOpenAPI(){
         return new OpenAPI()
             .info(new Info()
-                    .title("Api Employe")
+                    .title("Api Gateway")
                     .version("1.0")  
                     .description("Documentation")
             );
