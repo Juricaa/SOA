@@ -42,8 +42,8 @@ springdoc:
 mail:
     host: smtp.gmail.com
     port: 587
-    username: ton_email@gmail.com
-    password: ton_mot_de_passe
+    username: zagusawa635@gmail.com
+    password: WnngAENTJXEmJWJ
     properties:
       mail:
         smtp:

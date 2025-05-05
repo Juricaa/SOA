@@ -8,7 +8,7 @@ import lombok.Data;
 public class Employe{
     private String numEmp;
     private String nom;
-    private int nbJours;
-    private int tauxJ;
-    private int salaire;
+    private String email;
+    private String adresse;
+    
 }

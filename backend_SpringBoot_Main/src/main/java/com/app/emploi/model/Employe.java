@@ -5,6 +5,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,5 +27,7 @@ private String nom;
 private String adresse;
 @Column(name = "email")
 private String email;
-
+@ManyToOne
+    @JoinColumn(name="idComp", referencedColumnName = "idComp")  // Faire correspondre la colonne idComp de Compagnie
+    private Compagnie compagnie;
 }
